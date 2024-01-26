@@ -4,6 +4,8 @@ form{	width:25%;
 	margin:auto;
 	background-color:#81dbf1;
 }
+
+/*este div hace que se no vea en bloque*/
 div {display: flex;
 	flex-direction: column;
 	margin:0 10%;
