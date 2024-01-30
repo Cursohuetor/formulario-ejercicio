@@ -39,6 +39,112 @@
             <input type="email" id="correo" placeholder="Escribe tu email" required>
         </div>
 
+
+
+
+        <div>
+            <fieldset>
+                <legend>Indica tu grupo de edad</legend>
+                <label for="primero">Menor de 18</label>
+                <input type="radio" id="primero" name="edades"><br>
+                <label for="segundo">18 - 65</label>
+                <input type="radio" id="segundo" name="edades" checked ><br>
+                <label for="tercero">Mayor de 65</label>
+                <input type="radio" id="tercero" name="edades">
+            </fieldset>
+        </div>
+
+        <div>
+            <fieldset>
+                <legend>Selecciona los ingredientes</legend>
+                <label for="primero-ck">Lechuga</label>
+                <input type="checkbox" name="edades-ck" id="primero-ck" checked="checked"><br>
+                <label for="segundo-ck">Tomate</label>
+                <input type="checkbox" name="edades-ck" id="segundo-ck"><br>
+                <label for="tercero-ck">Cebolla</label>
+                <input type="checkbox" name="edades-ck" id="tercero-ck">
+            </fieldset>
+        </div>
+
+        <div>
+            <label for="miarea">Observaciones</label>
+            <textarea name="mensaje" id="miarea" cols="30" rows="10" maxlength="200" placeholder="Máximo 200 caracteres"></textarea>
+        </div>
+
+
+
+
+        <div>
+            <fieldset>
+                <legend>Opciones</legend>
+                <label for="misopciones">Seleccionar MÚLTIPLE</label><br>
+                <select multiple name="opciones" id="misopciones">
+                    <option value="opcion1">Opción 1</option>
+                    <option value="opcion2">Opción 2</option>
+                    <option value="opcion3">Opción 3</option>
+                </select>
+                    <br>
+                <label for="misopciones">Seleccionar SENCILLO</label><br>
+                <select name="opciones" id="misopciones">
+                    <option value="opcion1">Opción 1</option>
+                    <option value="opcion2">Opción 2</option>
+                    <option value="opcion3">Opción 3</option>
+                </select>
+            </fieldset>
+        </div>
+
+
+        <div>
+            <fieldset>
+                <legend>Opciones de números y letras</legend>
+                <label for="misopcionesDos"></label>
+                <select name="numerosyletras" id="misopcionesDos">
+                    <optgroup label="Números">
+                        <option value="opcion1">Opción 1</option>
+                        <option value="opcion2">Opción 2</option>
+                        <option value="opcion3">Opción 3</option>
+                        <option value="opcion4">Opción 4</option>
+                    </optgroup>
+                    <optgroup label="Letras">
+                        <option value="opcionA">Opción A</option>
+                        <option value="opcionB">Opción B</option>
+                        <option value="opcionC">Opción C</option>
+                        <option value="opcionD">Opción D</option>
+                    </optgroup>
+                </select>
+            </fieldset>
+        </div>
+
+
+
+        <div>
+            <label for="foto">Subir archivo</label>
+            <input type="file" name="subirFoto" id="foto" >
+
+            <input type="submit" value="Contacta con técnico" formaction="mailto:serviciotecnico@gmail.com">
+
+
+
+
+
+
+            <input type="submit" value="Información legal" formaction="https://oalhuetortajar.com/politica-de-privacidad/" formtarget="_blank">
+
+
+
+
+
+
+
+            
+        </div>
+
+
+
+
+
+
+
         <input type="submit" value="Enviar">
 
     </form>
